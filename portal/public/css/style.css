@@ -1,0 +1,191 @@
+body{
+    background: #f8f9fa;
+}
+
+#slogan{
+    text-align: center;
+    /*padding: 20px 0 0 0;*/
+    color: #333;
+    /*border-top: #ddd solid 2px;*/
+}
+
+.navbar .navbar-nav .nav-item a.nav-link{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    background: #fff;
+}
+
+/*HOVER NAVBAR*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu{
+    margin: 0;
+}
+.dropdown-menu a.dropdown-item{
+    color: #666;
+    font-size: 80%;
+}
+.dropdown-menu a.dropdown-item:hover{
+    color: #333;
+}
+/*ul li{*/
+    /*list-style-type:none;*/
+    /*display: inline;*/
+/*}*/
+
+.navbar-nav .nav-link{display:inline-block;}
+/*.ml-auto {display:inline-block!important;}*/
+/*HOVER NAVBAR END*/
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+#banner{
+    border-top: #ddd solid 2px;
+    padding: 15px 0 0 0;
+}
+
+#content .card, #slider{
+    margin-bottom: 40px;
+}
+
+#content .underline{
+    border-bottom: #ddd solid 2px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+#content .blue{
+    color: #0091c6;
+}
+
+#content .green{
+    color: #1b7203;
+}
+
+#content .orange{
+    color: #eb7200;
+}
+
+#content .red{
+    color: #cf0401;
+}
+
+#content .news img, #content .news .date{
+    width: 80px;
+    height: 80px;
+}
+
+#content .news img, #content .activities img{
+    object-fit: cover;
+}
+
+#content .news .date{
+    border: #3c763d 2px solid;
+}
+
+#content .news .date h4{
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    color: #3c763d;
+}
+#content .news .date p{
+    background: #3c763d;
+    color: #fff;
+}
+
+#content .news-detail img{
+    margin: 15px auto;
+}
+
+#content .activities img{
+    width: 60px;
+    height: 60px;
+}
+
+#content .file-download{
+    margin-bottom: 0px;
+}
+#content .file-download a{
+    margin-bottom: 5px;
+    border-color: #ddd;
+}
+
+#content .file-download .btn-group-sm > .btn, #content .file-download .btn-sm{
+    padding: .0rem .5rem;
+}
+
+.post-item{
+    border-bottom: #ddd 1px solid;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+#content .notice{
+    margin: 45px 0 220px 0;
+}
+
+#carousel {
+    /*border-top: #ddd solid 2px;*/
+    width:100%;
+    height: 300px;
+    margin: auto;
+    display: relative;
+}
+#carousel img {
+    width: 600px;
+    height: 250px;
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+}
+
+.breadcrumb {
+    padding: 1px 15px 5px 20px !important;
+}
+
+.lightBox a img{
+    margin-bottom: 15px;
+}
+
+#script-warning {
+    display: none;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+
+#loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#calendar {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+
+#calendar .fc-day-grid-event .fc-time{
+    display: none;
+}
+
+.fc-day-grid-event .fc-content{
+    white-space: normal;
+}

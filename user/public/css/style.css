@@ -1,0 +1,83 @@
+body{
+    background: #f8f9fa;
+}
+
+#slogan{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.navbar .navbar-nav .nav-item a{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    background: #fff;
+}
+
+#slogan {
+    border-top: #ddd solid 2px;
+}
+
+#content .card, #slider{
+    margin-bottom: 40px;
+}
+
+#content .underline{
+    border-bottom: #ddd solid 2px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+#content .blue{
+    color: #0091c6;
+}
+
+#content .green{
+    color: #1b7203;
+}
+
+#content .orange{
+    color: #eb7200;
+}
+
+#content .red{
+    color: #cf0401;
+}
+
+#content .news img{
+    width: 80px;
+    height: 80px;
+}
+
+#content .news-detail img{
+    margin: 15px auto;
+}
+
+#content .activities img{
+    width: 60px;
+    height: 60px;
+}
+
+#content .file-download a{
+    margin-bottom: 5px;
+    border-color: #ddd;
+}
+
+#carousel {
+    /*border-top: #ddd solid 2px;*/
+    width:100%;
+    height: 220px;
+    margin: auto;
+    display: relative;
+}
+#carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+}
+
+.breadcrumb {
+    padding: 1px 15px 5px 20px !important;
+}
